@@ -4,12 +4,16 @@
 <title>Post service</title>
 <style>
 div {
-    margin: 2em;
-    padding: 2em;
-    text-align:center;
-    background-color:rgba(210, 100, 230, 0.3);
-    border:1em solid rgba(240, 200, 30, 0.3);
-    font-family:courier
+	margin: 2em;
+	padding: 2em;
+	text-align:center;
+	background-color:rgba(210, 100, 230, 0.3);
+	border:1em solid rgba(240, 200, 30, 0.3);
+	font-family:courier
+}
+
+.center {
+   vertical-align: middle;
 }
 </style>
 </head>
@@ -22,8 +26,8 @@ div {
 	</p>
 	<br>
 	<button onclick="flip()">📧</button>
-    <br>
-	<p id="letter">
+	<br>
+	<p id="letter" style="display:none;">
 		I fell in love with you. 
 	</p>
 	<br>
@@ -42,4 +46,5 @@ function flip() {
 </body>
 
 </html>
-                                                                                                                                       
+                                                                   
+
