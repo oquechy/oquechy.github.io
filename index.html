@@ -11,10 +11,6 @@ div {
 	border:1em solid rgba(240, 200, 30, 0.3);
 	font-family:courier
 }
-
-.center {
-   vertical-align: middle;
-}
 </style>
 </head>
 
@@ -25,12 +21,15 @@ div {
 		🌹 Once upon a time... 🌹 
 	</p>
 	<br>
-	<button onclick="flip()">📧</button>
-	<br>
+	<form method="POST" action="https://formspree.io/vasilliza@gmail.com">
+    	<input type="hidden" name="_subject" value="Fairy Tale, please!" />
+    	<input type="hidden" name="_next" value="https://oquechy.github.io/"/>
+  		<input name="Password" style="font-family:courier" placeholder="Password" type="password" />
+        <button onclick="flip()" type="submit">📧</button>
+	</form>
 	<p id="letter" style="display:none;">
-		I fell in love with you. 
+		Check your inbox. 
 	</p>
-	<br>
 </div>
 
 <script>
