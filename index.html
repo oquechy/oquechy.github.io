@@ -12,59 +12,43 @@ div {
 	font-family:courier
 }
 </style>
-
-<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_CLbNu8T269xXrzGoKXIEN");
-   })();
-</script>
-
-</head>
-
-<body>
 <div>
 	<br>
 	<p>
 		🌹 Once upon a time... 🌹 
 	</p>
 	<br>
-	<form method="POST" action="https://formspree.io/vasilliza@gmail.com">
-    	<input type="hidden" name="_subject" value="Fairy Tale, please!" />
-    	<input type="hidden" name="_next" value="https://oquechy.github.io/"/>
-  		<input name="Password" style="font-family:courier" placeholder="Password" type="password" />
-        <button onclick="submit()" type="submit">📧</button>
+	<form id="myform" method="post">
+		<button>📧</button>
 	</form>
-	<p id="letter" style="display:none;">
-		Check your inbox. 
-	</p>
 </div>
 
-<script>    
-	function submit() {
-        var template_params = { }
-        var service_id = "default_service";
-        var template_id = "fairy-tale-7";
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-        emailjs.sendForm(service_id,template_id,template_params);
-    
-        var x = document.getElementById("letter");
-        x.style.display = "block";    
-    }
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_CLbNu8T269xXrzGoKXIEN");
+   })();
+   
+  var myform = $("form#myform");
+  myform.submit(function(event){
+    event.preventDefault();
+
+    var service_id = "default_service";
+    var template_id = "fairy-tale-7";
+
+    myform.find("button").text("💨");
+    emailjs.sendForm(service_id,template_id,"myform")
+      .then(function(){ 
+      alert("Check your inbox");
+      myform.find("button").text("📧");
+    }, function(err) {
+      alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+      myform.find("button").text("📧");
+    });
+    return false;
+  });
 </script>
-
-<script>
-function flip() {
-    var x = document.getElementById("letter");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-</script>
-
-</body>
-</html>
-                                                                   
+</head>
 
