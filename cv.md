@@ -2,7 +2,7 @@
 title: Curriculum Vitae
 ---
 
-i'm a PhD student at IMDEA Software Institue
+i'm a PhD student at IMDEA Software Institute
 
 my research interests are type theory, functional programming, and software verification
 
@@ -12,7 +12,7 @@ my research interests are type theory, functional programming, and software veri
 designed and implemented an algorithmic relational type system for Haskell as part of the Liquid Haskell project. i'm now adding support for monadic effects
 
 ### An Expressive Type System for Stream Processing (thesis)
-designed a type system with row polymorphism to verify the correctness of streaming queries. queries such as `select *, id from X join Y` which contain wildcards and joins perticularly benefit from the use of rows
+designed a type system with row polymorphism to verify the correctness of streaming queries. queries such as `select *, id from X join Y` which contain wildcards and joins particularly benefit from the use of rows
 
 ### Translation of Intersection Types to System F (coursework)
 implemented a translation of a typing judgement from a STLC with intersection types to a System F. the translation is sound in the subsystems of rank two. the algorithm is known as antiunification
@@ -55,7 +55,7 @@ _2020, Google, Switzerland,_ created an automatic workflow of requesting computa
 
 _2019, Bloomberg, UK,_ developed a lock-free debugging utility for caches in a data distribution network
 
-_2019, Yandex, Russia,_ improved the relative ranking of user reviews on objects displayed in the Yandex search engine. specifically, supported marketing analitycs as an additional source of ranking features
+_2019, Yandex, Russia,_ improved the relative ranking of user reviews on objects displayed in the Yandex search engine. specifically, supported marketing analytics as an additional source of ranking features
 
 _2018, Google, Poland,_ implemented labeling of processes in Google's production monitoring tool according to their states such as «critical», «recently launched», etc.
 
