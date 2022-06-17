@@ -2,7 +2,7 @@ html {
     font-family: sans-serif;
     color: #460000;
     background-color: #ffcd94;
-    background-image: url("../images/left-haskell.png");
+    /* background-image: url("../images/left-haskell.png"); */
     background-position: left -100px bottom -150px;
     background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@ html {
 body { 
     font-size: 1.6rem;
     background-color: #FFFFFF;
-    background-image: url("../images/right.png");
+    /* background-image: url("../images/right.png"); */
     background-position: right -100px top -70px;
     background-repeat: no-repeat;
 }
