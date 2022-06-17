@@ -2,28 +2,28 @@
 title: Curriculum Vitae
 ---
 
-i'm a PhD student at IMDEA Software Institute
+I'm a PhD student at IMDEA Software Institute.
 
-my research interests are type theory, functional programming, and software verification
+My research interests are type theory, functional programming, and software verification.
 
 ## Research
 
 ### Relational Types for Haskell
-designed and implemented an algorithmic relational type system for Haskell as part of the Liquid Haskell project. i'm now adding support for monadic effects
+Designed and implemented an algorithmic relational type system for Haskell as a part of Liquid Haskell project. Currenly, I work on verification of probabilistic Haskell programs using relational typing.
 
 ### An Expressive Type System for Stream Processing (thesis)
-designed a type system with row polymorphism to verify the correctness of streaming queries. queries such as `select *, id from X join Y` which contain wildcards and joins particularly benefit from the use of rows
+Designed a type system with row polymorphism for big data processing. Queries such as `select *, id from X join Y` which contain wildcards and joins particularly benefit from the use of rows.
 
 ### Translation of Intersection Types to System F (coursework)
-implemented a translation of a typing judgement from a STLC with intersection types to a System F. the translation is sound in the subsystems of rank two. the algorithm is known as antiunification
+Implemented a translation of a typing judgement from a STLC with intersection types to a System F. The translation is sound in the subsystems of rank two. The algorithm is known as antiunification.
 
 ## Education
 
-_2021-2023,_ master in Applied Mathematics and Information Sciences at HSE
+_2021-2023,_ Master of Applied Mathematics and Information Sciences at HSE
 
-_2018-2021,_ bachelor in Applied Mathematics and Information Sciences at HSE
+_2018-2021,_ Bachelor of Applied Mathematics and Information Sciences at HSE
 
-_2016-2018,_ bachelor in Applied Mathematics and Physics at SPbAU (transferred to HSE)
+_2016-2018,_ Bachelor of Applied Mathematics and Physics at SPbAU (unfinished, transferred to HSE)
 
 _2009-2016,_ high school graduate from Saint Petersburg Lyceum 30
 
@@ -41,6 +41,8 @@ _Jun 2019,_ Haskell Summer School Monadic Party
 
 ## Volunteering at Conferences
 
+_Jun 2022,_ PLDI
+
 _Feb 2021,_ Lambda Days
 
 _Jan 2021,_ POPL
@@ -51,13 +53,13 @@ _Jul 2019,_ ECOOP
 
 ## Industry Internships
 
-_2020, Google, Switzerland,_ created an automatic workflow of requesting computational resources for SaaS clients across Google
+_2020, Google, Switzerland,_ created an automatic workflow of requesting computational resources for SaaS clients across Google.
 
-_2019, Bloomberg, UK,_ developed a lock-free debugging utility for caches in a data distribution network
+_2019, Bloomberg, UK,_ developed a lock-free debugging utility for caches of a market data distribution network.
 
-_2019, Yandex, Russia,_ improved the relative ranking of user reviews on objects displayed in the Yandex search engine. specifically, supported marketing analytics as an additional source of ranking features
+_2019, Yandex, Russia,_ improved ranking of user reviews in Yandex search engine. Specifically, supported marketing analytics as an additional source of ranking features.
 
-_2018, Google, Poland,_ implemented labeling of processes in Google's production monitoring tool according to their states such as «critical», «recently launched», etc.
+_2018, Google, Poland,_ implemented user-specific labeling of noteworthy processes in Google's production monitoring tool.
 
-_2017, JetBrains, Russia,_ developed an auto-smoothing algorithm for low-poly models in a VR game engine CoSpaces
+_2017, JetBrains, Russia,_ developed an auto-smoothing algorithm for low-poly 3D objects in a VR game engine CoSpaces.
 

@@ -1,26 +1,31 @@
 html {
     font-family: sans-serif;
-    font-size: 62.5%;
-    color: #502d00;
-    background-color: #ffc240;
-    background-image: url("../images/logo.png");
-    background-position: 10% 100%;
+    color: #460000;
+    background-color: #ffcd94;
+    background-image: url("../images/left-haskell.png");
+    background-position: left -100px bottom -150px;
     background-repeat: no-repeat;
 }
 
 body { 
     font-size: 1.6rem;
     background-color: #FFFFFF;
+    background-image: url("../images/right.png");
+    background-position: right -100px top -70px;
+    background-repeat: no-repeat;
 }
 
 div#header {
-    border-bottom: 2px solid #C94277;
-    margin-bottom: 3rem;
-    padding: 1.2rem 0rem 1.2rem 0rem;
+    border-bottom: 4px solid #107820;
 }
 
 div#logo a {
-    color: #C94277;
+    color: #107820;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
     font-size: 3.4rem;
     font-weight: bold;
     text-decoration: none;
@@ -34,8 +39,13 @@ div#logo a:after {
     content: " ❧";
 }
 
-div#header #navigation a {
-    color: #C94277;
+div#header #navigation a { 
+    color: #107820;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; 
     font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
@@ -43,19 +53,17 @@ div#header #navigation a {
 }
 
 div#footer {
-    border-top: solid 2px #C94277;
+    border-top: solid 4px #107820;
     font-size: 1.2rem;
-    margin-top: 3rem;
-    padding: 1.2rem 0rem 1.2rem 0rem;
     text-align: right;
 }
 
 h1, h2 {
-    color: #4272DB;
+    color: #3D007A;
 }
 
 h3 {
-    color: #3C82D5;
+    color: #6100a2;
 }
 
 h1 {
@@ -87,7 +95,7 @@ a {
 }
 
 a:link {
-    color: #7FDBFF;
+    color: #47afff;
 }
 
 #navigation a:after {
@@ -121,8 +129,9 @@ div.info {
       margin: 0 auto 3rem;
       text-align: center;
     }
-    footer {
+    #footer {
       text-align: center;
+      padding: 1.2rem 0rem 1.2rem 0rem;
     }
     #logo {
       text-align: center;
@@ -147,8 +156,9 @@ div.info {
       margin: 0 auto 3rem;
       text-align: center;
     }
-    footer {
+    #footer {
       text-align: center;
+      padding: 1.2rem 0rem 1.2rem 0rem;
     }
     #logo {
       text-align: center;
@@ -161,6 +171,9 @@ div.info {
   }
   
   @media (min-width: 640px) {
+    html {
+      font-size: 62.5%;
+    }
     body {
       width: 60rem;
       margin: 1.2rem auto;
@@ -174,8 +187,9 @@ div.info {
       margin: 0 auto 3rem;
       text-align: center;
     }
-    footer {
+    #footer {
       text-align: center;
+      padding: 1.2rem 0rem 1.2rem 0rem;
     }
     #logo {
       text-align: center;

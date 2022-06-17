@@ -3,7 +3,14 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: hakyll-favicon-0.1.0@sha256:79ae766d7282129c2c1a10c4264c7bad4d44cb83fb76d6242bc4545ea5c2ade4,1361
+    pantry-tree:
+      size: 375
+      sha256: c9760869d296e02b1eff9a61795a481c06a03b9f94f2db14ec0631078c88e0fc
+  original:
+    hackage: hakyll-favicon-0.1.0
 snapshots:
 - completed:
     size: 534126

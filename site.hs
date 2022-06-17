@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+
 import           Data.Monoid                    ( mappend )
 import           Hakyll                         ( makeItem
                                                 , loadAll
@@ -28,7 +29,8 @@ import           Hakyll                         ( makeItem
                                                   )
                                                 , Context
                                                 )
-
+import           Hakyll.Favicon                 ( faviconsField
+                                                , faviconsRules )
 
 --------------------------------------------------------------------------------
 
@@ -37,6 +39,8 @@ config = defaultConfiguration { destinationDirectory = "docs" }
 
 main :: IO ()
 main = hakyllWith config $ do
+  faviconsRules "images/favicon.svg"
+  
   match "images/*" $ do
     route idRoute
     compile copyFileCompiler
@@ -45,11 +49,11 @@ main = hakyllWith config $ do
     route idRoute
     compile compressCssCompiler
 
-  match (fromList ["index.md", "contact.md", "cv.md", "blog.md"]) $ do
+  match (fromList ["index.md", "contact.md", "cv.md", "gallery.md", "talks.md"]) $ do
     route $ setExtension "html"
     compile
       $   pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= loadAndApplyTemplate "templates/default.html" iconCtx
       >>= relativizeUrls
 
   match "posts/*" $ do
@@ -67,7 +71,7 @@ main = hakyllWith config $ do
       let archiveCtx =
             listField "posts" postCtx (return posts)
               `mappend` constField "title" "Archives"
-              `mappend` defaultContext
+              `mappend` iconCtx
 
       makeItem ""
         >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
@@ -81,7 +85,7 @@ main = hakyllWith config $ do
   --         let indexCtx =
   --                 listField "posts" postCtx (return posts) `mappend`
   --                 constField "title" "Home"                `mappend`
-  --                 defaultContext
+  --                 iconCtx
 
   --         getResourceBody
   --             >>= applyAsTemplate indexCtx
@@ -90,8 +94,10 @@ main = hakyllWith config $ do
 
   match "templates/*" $ compile templateCompiler
 
-
 --------------------------------------------------------------------------------
+iconCtx :: Context String
+iconCtx = faviconsField `mappend` defaultContext
+
 postCtx :: Context String
-postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
+postCtx = dateField "date" "%B %e, %Y" `mappend` iconCtx
 
