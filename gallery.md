@@ -2,7 +2,7 @@
 title: Gallery
 ---
 
-As i said, i shoot pictures.
+As I said, I shoot pictures.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:480px; display:none;"

@@ -2,16 +2,18 @@ html {
     font-family: sans-serif;
     color: #460000;
     background-color: #ffcd94;
-    /* background-image: url("../images/left-haskell.png"); */
-    background-position: left -100px bottom -150px;
+    /* background-image: url("../images/pumpkin.png"); */
+    background-position: left bottom;
+    background-size: 100px;
     background-repeat: no-repeat;
 }
 
 body { 
     font-size: 1.6rem;
     background-color: #FFFFFF;
-    /* background-image: url("../images/right.png"); */
-    background-position: right -100px top -70px;
+    background-image: url("../images/pumpkin.png");
+    background-position: right top;
+    background-size: 150px;
     background-repeat: no-repeat;
 }
 
