@@ -6,7 +6,7 @@ I'm Lisa (ru: _Лиза Василенко_), a PhD student at IMDEA Software In
 
 ## My Research Interests
 
-I like type theory, software verification and functional programming
+I like type theory, software verification and functional programming.
  
 My main expertise is relational refinement types.
 
