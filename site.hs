@@ -39,7 +39,7 @@ config = defaultConfiguration { destinationDirectory = "docs" }
 
 main :: IO ()
 main = hakyllWith config $ do
-  faviconsRules "images/favicon.svg"
+  -- faviconsRules "images/favicon.svg"
   
   match "images/*" $ do
     route idRoute
