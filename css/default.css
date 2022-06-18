@@ -11,14 +11,18 @@ html {
 body { 
     font-size: 1.6rem;
     background-color: #FFFFFF;
-    background-image: url("../images/pumpkin.png");
-    background-position: right top;
-    background-size: 150px;
-    background-repeat: no-repeat;
+    /* background-image: url("../images/left-haskell.png"), url("../images/right.png"); */
+    background-position: left top 50px, right top;
+    background-size: 150px, 150px;
+    background-repeat: no-repeat, no-repeat;
 }
 
 div#header {
     border-bottom: 4px solid #107820;
+    background-image: url("../images/left-haskell.png"), url("../images/right.png");
+    background-position: left bottom, right top;
+    background-size: 15rem, 15rem;
+    background-repeat: no-repeat, no-repeat;
 }
 
 div#logo a {
@@ -69,15 +73,15 @@ h3 {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 h3:before {
@@ -114,7 +118,7 @@ code {
 
 div.info {
     color: #555;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: italic;
 }
 
