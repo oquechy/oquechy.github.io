@@ -13,7 +13,7 @@ div#header {
     border-bottom: 0.4rem solid #107820;
     background-image: url("../images/left-haskell.png"), url("../images/right.png");
     background-position: left bottom, right top;
-    background-size: 15rem, 15rem;
+    background-size: 12rem, 12rem;
     background-repeat: no-repeat, no-repeat;
 }
 
