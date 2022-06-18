@@ -2,23 +2,15 @@ html {
     font-family: sans-serif;
     color: #460000;
     background-color: #ffcd94;
-    /* background-image: url("../images/pumpkin.png"); */
-    background-position: left bottom;
-    background-size: 100px;
-    background-repeat: no-repeat;
 }
 
 body { 
     font-size: 1.6rem;
     background-color: #FFFFFF;
-    /* background-image: url("../images/left-haskell.png"), url("../images/right.png"); */
-    background-position: left top 50px, right top;
-    background-size: 150px, 150px;
-    background-repeat: no-repeat, no-repeat;
 }
 
 div#header {
-    border-bottom: 4px solid #107820;
+    border-bottom: 0.4rem solid #107820;
     background-image: url("../images/left-haskell.png"), url("../images/right.png");
     background-position: left bottom, right top;
     background-size: 15rem, 15rem;
@@ -28,10 +20,10 @@ div#header {
 div#logo a {
     color: #107820;
     text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
+    -0.1rem -0.1rem 0 white,
+    0.1rem -0.1rem 0 white,
+    -0.1rem 0.1rem 0 white,
+    0.1rem 0.1rem 0 white;
     font-size: 3.4rem;
     font-weight: bold;
     text-decoration: none;
@@ -48,10 +40,10 @@ div#logo a:after {
 div#header #navigation a { 
     color: #107820;
     text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+    -0.1rem -0.1rem 0 white,
+    0.1rem -0.1rem 0 white,
+    -0.1rem 0.1rem 0 white,
+    0.1rem 0.1rem 0 white; 
     font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
@@ -59,7 +51,7 @@ div#header #navigation a {
 }
 
 div#footer {
-    border-top: solid 4px #107820;
+    border-top: solid 0.4rem #107820;
     font-size: 1.2rem;
     text-align: right;
 }
@@ -124,7 +116,7 @@ div.info {
 
 @media (max-width: 319px) {
     body {
-      width: 90%;
+      width: 90%; 
       margin: 1.2rem auto;
       padding: 0 2%;
     }
