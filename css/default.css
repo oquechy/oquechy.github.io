@@ -114,7 +114,7 @@ div.info {
     font-style: italic;
 }
 
-@media (max-width: 319px) {
+@media only screen and (orientation: portrait) {
     body {
       width: 90%; 
       margin: 1.2rem auto;
@@ -141,34 +141,7 @@ div.info {
     }
   }
   
-  @media (min-width: 320px) {
-    body {
-      width: 90%;
-      margin: 1.2rem auto;
-      padding: 0 2%;
-    }
-    #header {
-      margin: 4.2rem 0;
-    }
-    #navigation {
-      margin: 0 auto 3rem;
-      text-align: center;
-    }
-    #footer {
-      text-align: center;
-      padding: 1.2rem 0rem 1.2rem 0rem;
-    }
-    #logo {
-      text-align: center;
-      margin: 1rem auto 3rem;
-    }
-    #navigation a {
-      display: inline;
-      margin: 0 0.6rem;
-    }
-  }
-  
-  @media (min-width: 640px) {
+  @media only screen and (orientation: landscape) {
     html {
       font-size: 62.5%;
     }
