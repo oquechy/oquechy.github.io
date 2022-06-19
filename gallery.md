@@ -2,7 +2,7 @@
 title: Gallery
 ---
 
-As I said, I shoot pictures.
+Hey, that's me! As I said, I shoot pictures.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:480px; display:none;"
@@ -11,7 +11,7 @@ As I said, I shoot pictures.
   data-description="37 new items · Album by Lisa Vasilenko"
   data-repeat="false"
   data-background-color="#ffffff">
-  <object data="https://lh3.googleusercontent.com/BvMAMWQ_Iw2SL4Ly3kqage7n6QKqO7mQVlCV4yLNp3rPB0UUm8NPYD5ppG0E3bo5OVyIYjZJ5wMnSz0L6oVH2aHAyBpB178QDUIzeL_79j9-VKXZCrs1HwnG6yf_fLQ3X8FNt-fUax0=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/5s0WJFobR3hThZ_oOXq802pGEuhyHdT6ZojR19BQoc_qLHmuBALiKDiKtqmqorkf6dRnkevjaM2-Y1b6J5R_gOLlGbhjea9NzVvUWuIQp0HhIM0S1rY0KOXlB9NRbg04rFjFKUHxn1M=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/wRgwlKDrNbn7qZy4jlWkyalTyUOsmPcFJ5SQs0e4OMU3PqdYFjC5LuvDbD2SprJnqhRYLneEMVC752N7u_JZBuRIOnamcHjrEuZ0N6UVGcpzGIZT8UIg0RMEPzDnPSRxnhERmfAlJRU=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/Su1Gs1b4Gpoa2Ye4X4j8OK5BNcchUFAg7gG4fUomHb0W5nxXtgTNB_XqY-0YOG9zLT_vPZ6Oq_rIaploHpr6rHemHzjmILAYVii3kyoYNVWaxxWnDIjNB7Txa00YifpQMTX-80xxJJw=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/xh-GZ4dtVdPhTcomM0AzutX8K8LS-jP7yqVMu63wlLrEqz1tg3-XrcuRwb8oMehktOPJTva4imE6xw7iaJzWuS9OTKhdtoym6YFtaSLRWCXfzGD45xLzU2UGIJ0qzZqIlpgeTabNfXA=w1920-h1080"></object>
@@ -49,4 +49,3 @@ As I said, I shoot pictures.
   <object data="https://lh3.googleusercontent.com/PyJSkJZ0YXFHajWynEIkSFAUEBp77DISvpPAuwuW_ko-LD825Gn1Ui-cc4_dAPET3ASSOv2Ok1084J789FQm2GikAwAsgQZxBQswxluhD0J0_XWbH5tOCDzqRftpisnfeb_N17sJIQ4=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/U5-gySGI-z24rrlwpFUgtyjlb6ivJ5eHBjGhc5AjqvnPJGCKW5hhUE_NDoEGvUleJa2Oj_LoSSbEpU5gCPh9SilriVr9XF5PWtd8kDf7xN9jO92W8aD6w47e3uQejfUW5lX1gEJw5mA=w1920-h1080"></object>
 </div>
-
