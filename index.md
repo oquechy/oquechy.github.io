@@ -14,4 +14,4 @@ I work with Niki Vazou and Gilles Barthe on the implementation of a relational t
 
 ## Personal Stuff
 
-I read fiction, watch films, swim, draw, dance swing, and take long walks around Madrid shooting pictures.
+I read fiction, watch films, swim, draw, dance swing, and take long walks around Madrid shooting [pictures](/gallery.html).

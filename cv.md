@@ -2,19 +2,22 @@
 title: Curriculum Vitae
 ---
 
-I'm a PhD student at IMDEA Software Institute.
+I'm a PhD student at IMDEA Software Institute advised by Niki Vazou and Gilles Barthe.
 
 My research interests are type theory, functional programming, and software verification.
 
 ## Research
 
-### Relational Types for Haskell
+### Relational Types for Haskell (PhD thesis)
 Designed and implemented an algorithmic relational type system for Haskell as a part of Liquid Haskell project. Currenly, I work on verification of probabilistic Haskell programs using relational typing.
 
-### An Expressive Type System for Stream Processing (thesis)
+### Formal System for LiquidJava (internship with LASIGE)
+I'm working on formalizing of a refinement type system for Java with Catarina Gamboa and Alcides Fonseca. The system is based on Featherweight Java and features typestates to control state transitions of objects between method calls.
+
+### An Expressive Type System for Stream Processing (undergraduate project)
 Designed a type system with row polymorphism for big data processing. Queries such as `select *, id from X join Y` which contain wildcards and joins particularly benefit from the use of rows.
 
-### Translation of Intersection Types to System F (coursework)
+### Translation of Intersection Types to System F (undergraduate project)
 Implemented a translation of a typing judgement from a STLC with intersection types to a System F. The translation is sound in the subsystems of rank two. The algorithm is known as antiunification.
 
 ## Education
